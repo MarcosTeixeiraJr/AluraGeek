@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">AluraGeek</h1>
+    </header>
+    <main class="produtos">
+        <section class="produtos__secao" id="meus-produtos">
+          <h2 class="produtos__titulo">MEUS PRODUTOS:</h2>
+          <div class="produtos__card-container">
+            
+          </div>
+        </section>
+        <section class="adicionar__produto" id="adicionar-produto">
+          <h2 class="adicionar__produto--titulo">ADICIONAR PRODUTO:</h2>
+          <form class="adicionar__produto--formulario">
+            <div class="formulario__campo">
+              <label class="adicionar__produto--nome" for="nome-produto">Nome do Produto</label>
+              <input class="campo__produto" id="nome-produto" name="nome-produto" required placeholder="Nome">
+            </div>
+
+            <div class="formulario__campo">
+              <label class="adicionar__produto--valor" for="valor-produto">Valor do Produto</label>
+              <input class="campo__produto" id="valor-produto" name="valor-produto" required placeholder="Valor">
+            </div>
+
+            <div class="formulario__campo">
+              <label class="adicionar__produto--imagem" for="imagem-produto">Imagem do Produto</label>
+              <input class="campo__produto" id="imagem-produto" name="imagem-produto" required placeholder="Imagem">
+          </div>
+          
+
+            <div class="adicionar__produto--botoes">
+              <button type="submit" class="adicionar__botao--guardar">Guardar</button>
+              <button type="reset" class="adicionar__botao--limpar">Limpar</button>
+            </div>
+            
+          </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h1 class="rodape__titulo">AluraGeek</h1>
+        <p class="rodape__subtitulo">Desenvolvido por Marcos Teixeira</p>
+    </footer>
+
+  <script src="carregarProdutos.js"></script>
+</body>
+</html>

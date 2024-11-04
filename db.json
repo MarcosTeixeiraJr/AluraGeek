@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Moto Espotiva",
+      "valor": "45.000,00",
+      "imagem": "imagem/moto_esportiva-02.jpeg"
+    },
+    {
+      "id": "4b9b",
+      "nome": "Moto Espotiva",
+      "valor": "60.000,00",
+      "imagem": "imagem/moto_esportiva-01.jpeg"
+    },
+    {
+      "id": "4ab7",
+      "nome": "Moto Espotiva",
+      "valor": "55.000,00",
+      "imagem": "imagem/moto_esportiva-03.jpeg"
+    },
+    {
+      "id": "8eb9",
+      "nome": "Moto Estrada",
+      "valor": "45.000,00",
+      "imagem": "imagem/moto_estrada-01.jpeg"
+    },
+    {
+      "id": "d415",
+      "nome": "Moto Estrada",
+      "valor": "35.000,00",
+      "imagem": "imagem/moto_estrada-02.jpeg"
+    },
+    {
+      "id": "8bab",
+      "nome": "Moto Estrada",
+      "valor": "30.000,00",
+      "imagem": "imagem/moto_estrada-03.jpeg"
+    },
+    {
+      "id": "8d77",
+      "nome": "Moto Trilha",
+      "valor": "25.000,00",
+      "imagem": "imagem/moto_trilha-01.jpeg"
+    },
+    {
+      "id": "b2ac",
+      "nome": "Moto Trilha",
+      "valor": "20.000,00",
+      "imagem": "imagem/moto_trilha-02.jpeg"
+    },
+    {
+      "id": "8d52",
+      "nome": "Moto Trilha",
+      "valor": "15.000,00",
+      "imagem": "imagem/moto_trilha-03.jpeg"
+    }
+  ]
+}
